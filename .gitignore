@@ -1,0 +1,17 @@
+# Игнорируем всё в корне инстанса...
+/*
+
+# ...кроме того, что настраиваем сами
+!/.gitignore
+!/README.md
+!/config/
+!/defaultconfigs/
+!/kubejs/
+
+# Мусор, который генерирует KubeJS
+/kubejs/exported/
+/kubejs/probe/
+
+# Резервные копии конфигов
+*.bak
+*.old
