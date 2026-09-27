@@ -5,7 +5,7 @@
 	"Enable difficulty scaling" = true
 	#Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks
 	#Range: > 0
-	"Difficulty Delay" = 0
+	"Difficulty Delay" = 72000
 	#If true ignores mobs from spawners
 	"Ignore Spawner" = false
 	#Handles increase in difficulty regarding current difficulty.
@@ -61,7 +61,7 @@
 	#[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, PARROT, TARGETVILLAGER, NEUTRALAGGRO, PEHKUI]
 	#added here will disable that feature completely.
 	#E.g. ["GUARDIAN"] will disable the guardian feature
-	"Flag Blacklist" = []
+	"Flag Blacklist" = ["PARROT", "STEAL"]
 	#Treat ATTRIBUTES flags as whitelist
 	"Attribute Whitelist" = false
 	#Treat ARMOR flags as whitelist
@@ -129,7 +129,7 @@
 	#Whitelist for blocks, which can be actively broken. 
 	#Usage: id|namespace|#tag. Put "!" infront to exclude blocks. E.g. "minecraft", "minecraft:dirt" or "#minecraft:planks"
 	#Note: If you include common blocks (like grass blocks) the pathfinding can have undesirable results.
-	"Block Break Whitelist" = ["#forge:glass", "#forge:glass_panes", "#minecraft:fence_gates", "#forge:fence_gates", "#minecraft:wooden_doors"]
+	"Block Break Whitelist" = ["#forge:glass", "#forge:glass_panes", "#minecraft:fence_gates", "#forge:fence_gates", "#minecraft:wooden_doors", "#minecraft:planks", "#minecraft:logs", "#minecraft:wooden_slabs", "#minecraft:wooden_stairs", "#minecraft:wooden_fences", "#minecraft:wooden_trapdoors"]
 	#Treat Block Whitelist as Blocklist
 	"Breaklist as Blacklist" = false
 	#Use the block breaking sound instead of a knocking sound
@@ -168,9 +168,9 @@
 	"Steal Block Blacklist" = []
 	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight
 	#Note: Mobs can only break blocks if the tool they are holding can break the blocks
-	"Breaking items" = ["minecraft:diamond_pickaxe;1", "minecraft:iron_axe;2"]
+	"Breaking items" = ["minecraft:stone_axe;3", "minecraft:iron_axe;2"]
 	#Should mobs be able to break block entities? Evaluated before the break list
-	"Break BlockEntities" = true
+	"Break BlockEntities" = false
 	#Chance for neutral mobs to be aggressive
 	#Range: 0.0 ~ 1.0
 	"Neutral Aggressive Chance" = 0.05000000074505806
@@ -179,7 +179,7 @@
 	"Auto Target List" = []
 	#Difficulty at which mobs are able to break blocks
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Difficulty Break AI" = 0.0
+	"Difficulty Break AI" = 10.0
 	#Difficulty at which mobs are able to steal items
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Difficulty Steal AI" = 0.0

@@ -1,0 +1,41 @@
+[
+	"minecraft:zombie-40-0-20",
+	"minecraft:skeleton-15-3-20",
+	"minecraft:spider-10-3-20",
+	"minecraft:husk-15-5-20",
+
+	"spore:inf_human-30-7-0",
+	"spore:inf_villager-20-7-0",
+	"spore:inf_husk-15-10-0",
+	"spore:inf_wanderer-10-10-0",
+	"spore:inf_pillager-15-12-0",
+	"spore:inf_witch-8-15-0",
+	"spore:inf_player-5-15-0",
+
+	"spore:knight-10-20-0",
+	"spore:slasher-10-20-0",
+	"spore:leaper-8-22-0",
+	"spore:spitter-8-22-0",
+	"spore:griefer-6-25-0",
+	"spore:braiomil-5-28-0",
+	"spore:howler-5-30-0",
+	"spore:brute-5-35-0",
+	"spore:stalker-5-35-0",
+	"spore:volatile-4-35-0",
+
+	"minecraft:phantom-6-25-45",
+	"spore:busser-5-25-0",
+
+	"spore:inf_vindicator-8-40-0",
+	"spore:inf_evoker-3-45-0",
+	"spore:jagd-6-45-0",
+	"spore:scavenger-5-45-0",
+	"spore:thorn-5-50-0",
+	"spore:mephitic-4-50-0",
+	"spore:gorgon-3-55-0",
+
+	"spore:hollen-2-60-0",
+	"spore:brot-2-65-0",
+	"spore:inquisitor-1-75-0",
+	"spore:ogre-1-80-0"
+]
