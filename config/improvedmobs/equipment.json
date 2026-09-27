@@ -1,0 +1,452 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "create:cardboard_sword": [
+      3592,
+      0.0064999997
+    ],
+    "immersiveengineering:axe_steel": [
+      2398,
+      1.41476
+    ],
+    "immersiveengineering:sword_steel": [
+      2478,
+      1.3117309
+    ],
+    "minecolonies:chiefsword": [
+      914,
+      4.889481
+    ],
+    "minecolonies:iron_scimitar": [
+      3167,
+      0.049
+    ],
+    "minecolonies:pharaoscepter": [
+      1089,
+      4.508568
+    ],
+    "minecraft:bow": [
+      1089,
+      4.508568
+    ],
+    "minecraft:crossbow": [
+      1383,
+      3.826627
+    ],
+    "minecraft:diamond_axe": [
+      852,
+      5.022479
+    ],
+    "minecraft:diamond_sword": [
+      914,
+      4.889481
+    ],
+    "minecraft:enchanted_book": [
+      2057,
+      1.8573177
+    ],
+    "minecraft:golden_axe": [
+      3513,
+      0.014399999
+    ],
+    "minecraft:golden_sword": [
+      3576,
+      0.0081
+    ],
+    "minecraft:iron_axe": [
+      3080,
+      0.51635593
+    ],
+    "minecraft:iron_sword": [
+      3167,
+      0.049
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      2157,
+      1.7269388
+    ],
+    "minecraft:netherite_axe": [
+      16,
+      6.778693
+    ],
+    "minecraft:netherite_sword": [
+      86,
+      6.632802
+    ],
+    "minecraft:snowball": [
+      3107,
+      0.46844563
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      2157,
+      1.7269388
+    ],
+    "minecraft:stone_axe": [
+      3283,
+      0.0374
+    ],
+    "minecraft:stone_sword": [
+      3391,
+      0.026599998
+    ],
+    "minecraft:tnt": [
+      1957,
+      1.9881918
+    ],
+    "minecraft:trident": [
+      1157,
+      4.357304
+    ],
+    "minecraft:wooden_axe": [
+      3467,
+      0.019
+    ],
+    "minecraft:wooden_sword": [
+      3530,
+      0.0127
+    ],
+    "spore:infected_bow": [
+      1157,
+      4.357304
+    ],
+    "spore:infected_crossbow": [
+      1613,
+      3.0657542
+    ],
+    "spore:reaver": [
+      3082,
+      0.5130528
+    ]
+  },
+  "OFFHAND": {
+    "minecraft:ender_pearl": [
+      675,
+      1.2102311
+    ],
+    "minecraft:flint_and_steel": [
+      647,
+      1.2461817
+    ],
+    "minecraft:lava_bucket": [
+      275,
+      1.7269388
+    ],
+    "minecraft:shield": [
+      353,
+      1.6255897
+    ]
+  },
+  "FEET": {
+    "create:cardboard_boots": [
+      1734,
+      0.021699999
+    ],
+    "create:copper_diving_boots": [
+      1377,
+      0.5113901
+    ],
+    "create:netherite_diving_boots": [
+      316,
+      1.9030677
+    ],
+    "immersiveengineering:armor_faraday_boots": [
+      1748,
+      0.020299999
+    ],
+    "immersiveengineering:armor_steel_boots": [
+      598,
+      1.5361866
+    ],
+    "minecolonies:pirate_boots": [
+      795,
+      1.2821578
+    ],
+    "minecolonies:pirate_shoes": [
+      217,
+      2.0328007
+    ],
+    "minecolonies:plate_armor_boots": [
+      47,
+      2.2566686
+    ],
+    "minecraft:chainmail_boots": [
+      1359,
+      0.540316
+    ],
+    "minecraft:diamond_boots": [
+      443,
+      1.7373508
+    ],
+    "minecraft:golden_boots": [
+      1425,
+      0.4136078
+    ],
+    "minecraft:iron_boots": [
+      1111,
+      0.8764657
+    ],
+    "minecraft:leather_boots": [
+      1707,
+      0.0244
+    ],
+    "minecraft:netherite_boots": [
+      316,
+      1.9030677
+    ],
+    "spore:inf_boots": [
+      1763,
+      0.0188
+    ],
+    "spore:inf_up_boots": [
+      1736,
+      0.021499999
+    ],
+    "spore:living_boots": [
+      1763,
+      0.0188
+    ],
+    "spore:plated_boots": [
+      1709,
+      0.024199998
+    ]
+  },
+  "LEGS": {
+    "create:cardboard_leggings": [
+      1733,
+      0.021699999
+    ],
+    "immersiveengineering:armor_faraday_leggings": [
+      1747,
+      0.020299999
+    ],
+    "immersiveengineering:armor_steel_leggings": [
+      597,
+      1.5361866
+    ],
+    "minecolonies:pirate_leggins": [
+      794,
+      1.2821578
+    ],
+    "minecolonies:pirate_legs": [
+      216,
+      2.0328007
+    ],
+    "minecolonies:plate_armor_legs": [
+      46,
+      2.2566686
+    ],
+    "minecraft:chainmail_leggings": [
+      1358,
+      0.540316
+    ],
+    "minecraft:diamond_leggings": [
+      442,
+      1.7373508
+    ],
+    "minecraft:golden_leggings": [
+      1424,
+      0.4136078
+    ],
+    "minecraft:iron_leggings": [
+      1110,
+      0.8764657
+    ],
+    "minecraft:leather_leggings": [
+      1706,
+      0.0244
+    ],
+    "minecraft:netherite_leggings": [
+      315,
+      1.9030677
+    ],
+    "spore:inf_pants": [
+      1764,
+      0.0186
+    ],
+    "spore:inf_up_pants": [
+      1647,
+      0.030299999
+    ],
+    "spore:living_pants": [
+      1764,
+      0.0186
+    ],
+    "spore:plated_pants": [
+      1717,
+      0.0233
+    ]
+  },
+  "CHEST": {
+    "create:cardboard_chestplate": [
+      1737,
+      0.021699999
+    ],
+    "create:copper_backtank": [
+      1380,
+      0.5113901
+    ],
+    "create:netherite_backtank": [
+      319,
+      1.9030677
+    ],
+    "immersiveengineering:armor_faraday_chestplate": [
+      1751,
+      0.020299999
+    ],
+    "immersiveengineering:armor_steel_chestplate": [
+      601,
+      1.5361866
+    ],
+    "minecolonies:pirate_chest": [
+      220,
+      2.0328007
+    ],
+    "minecolonies:pirate_top": [
+      798,
+      1.2821578
+    ],
+    "minecolonies:plate_armor_chest": [
+      50,
+      2.2566686
+    ],
+    "minecraft:chainmail_chestplate": [
+      1362,
+      0.540316
+    ],
+    "minecraft:diamond_chestplate": [
+      446,
+      1.7373508
+    ],
+    "minecraft:golden_chestplate": [
+      1428,
+      0.4136078
+    ],
+    "minecraft:iron_chestplate": [
+      1114,
+      0.8764657
+    ],
+    "minecraft:leather_chestplate": [
+      1710,
+      0.0244
+    ],
+    "minecraft:netherite_chestplate": [
+      319,
+      1.9030677
+    ],
+    "spore:inf_chest": [
+      1736,
+      0.0218
+    ],
+    "spore:inf_up_chest": [
+      1638,
+      0.0316
+    ],
+    "spore:living_chest": [
+      1736,
+      0.0218
+    ],
+    "spore:plated_chest": [
+      1692,
+      0.026199998
+    ],
+    "spore:r_elytron": [
+      1726,
+      0.022799999
+    ]
+  },
+  "HEAD": {
+    "create:cardboard_helmet": [
+      2980,
+      0.021699999
+    ],
+    "create:copper_diving_helmet": [
+      2623,
+      0.5113901
+    ],
+    "create:netherite_diving_helmet": [
+      1562,
+      1.9030677
+    ],
+    "immersiveengineering:armor_faraday_helmet": [
+      2994,
+      0.020299999
+    ],
+    "immersiveengineering:armor_steel_helmet": [
+      1844,
+      1.5361866
+    ],
+    "minecolonies:build_goggles": [
+      3095,
+      0.010199999
+    ],
+    "minecolonies:pirate_cap": [
+      1463,
+      2.0328007
+    ],
+    "minecolonies:pirate_hat": [
+      2041,
+      1.2821578
+    ],
+    "minecolonies:plate_armor_helmet": [
+      1293,
+      2.2566686
+    ],
+    "minecolonies:santa_hat": [
+      25,
+      5.7987566
+    ],
+    "minecraft:chainmail_helmet": [
+      2605,
+      0.540316
+    ],
+    "minecraft:diamond_helmet": [
+      1689,
+      1.7373508
+    ],
+    "minecraft:golden_helmet": [
+      2671,
+      0.4136078
+    ],
+    "minecraft:iron_helmet": [
+      2357,
+      0.8764657
+    ],
+    "minecraft:leather_helmet": [
+      2953,
+      0.0244
+    ],
+    "minecraft:netherite_helmet": [
+      1562,
+      1.9030677
+    ],
+    "minecraft:turtle_helmet": [
+      2301,
+      0.948558
+    ],
+    "spore:gas_mask": [
+      2567,
+      0.59678036
+    ],
+    "spore:inf_helmet": [
+      2975,
+      0.0222
+    ],
+    "spore:inf_up_helmet": [
+      2816,
+      0.038099997
+    ],
+    "spore:living_helmet": [
+      2975,
+      0.0222
+    ],
+    "spore:plated_helmet": [
+      2911,
+      0.028599998
+    ]
+  }
+}
