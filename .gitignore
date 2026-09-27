@@ -10,6 +10,7 @@
 !/kubejs/
 !/minecraftinstance.json
 !/sync.bat
+!/.gitattributes
 
 # Мусор, который генерирует KubeJS
 /kubejs/exported/
