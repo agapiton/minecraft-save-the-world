@@ -8,6 +8,8 @@
 !/config/
 !/defaultconfigs/
 !/kubejs/
+!/minecraftinstance.json
+!/sync.bat
 
 # Мусор, который генерирует KubeJS
 /kubejs/exported/
