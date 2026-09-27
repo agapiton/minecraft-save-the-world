@@ -4,6 +4,7 @@
 # ...кроме того, что настраиваем сами
 !/.gitignore
 !/README.md
+!/ROADMAP.md
 !/config/
 !/defaultconfigs/
 !/kubejs/
