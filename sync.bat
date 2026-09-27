@@ -3,7 +3,7 @@ setlocal
 
 rem === Paths: edit if something lives elsewhere ===
 set "INST=%USERPROFILE%\curseforge\minecraft\Instances\minecraft save the world"
-set "SRV=%USERPROFILE%\mc-test-server"
+set "SRV=%USERPROFILE%\mctest-server"
 
 rem === Client-only mods: NOT copied to the server (parts of jar names) ===
 set CLIENT_ONLY=*embeddium* *oculus* *entityculling* *immediatelyfast*
